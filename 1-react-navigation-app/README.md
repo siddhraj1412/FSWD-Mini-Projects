@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# React Navigation App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple React app demonstrating navigation between multiple screens using React Navigation.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Multiple screens (Home, About, Help, etc.)  
+- Navigation managed using React Navigation's stack navigator  
+- Easy setup and usage with `npm start`  
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js and npm installed  
+- Basic understanding of React
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone the repository and navigate to the project folder:
 
-### `npm run build`
+```bash
+git clone https://github.com/siddhraj1412/FSWD-Mini-Projects.git
+cd FSWD-Mini-Projects/1-react-navigation-app
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running the Project
 
-### `npm run eject`
+Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+After running this command, the app will be available at `http://localhost:3000` or a similar URL displayed in your terminal.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+├── public/
+├── src/
+│   ├── screens/
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   └── Help.js
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
+```
 
-## Learn More
+- `src/screens` contains the app's screen components.
+- `App.js` sets up navigation using React Navigation.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- On load, the app navigates to the Home screen.
+- Use navigation links or buttons to go to different screens.
 
-### Code Splitting
+## Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `@react-navigation/native`
+- `@react-navigation/stack`
+- `react-native-screens`
+- `react-native-safe-area-context`
 
-### Analyzing the Bundle Size
+Install extra dependencies if prompted by an error or missing package.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Customization
 
-### Making a Progressive Web App
+You can add new screens to the `src/screens` folder and register them in `App.js`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Resources
 
-### Advanced Configuration
+- [React Navigation Documentation](https://reactnavigation.org/docs/getting-started/)[1]
+- [React Navigation Example Repo](https://github.com/keremcubuk/react-navigation-demo)[3]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+***
