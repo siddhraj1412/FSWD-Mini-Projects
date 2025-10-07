@@ -49,7 +49,6 @@ npm start
 Open your browser and visit:
 
 - `http://localhost:4000/` for the Signup form
-- `http://localhost:4000/login` for the Login form
 
 ## Usage
 
