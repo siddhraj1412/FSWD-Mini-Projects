@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Product Card
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive product card built using HTML, CSS, and JavaScript.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Displays product image, name, and description
+- Shows price and size/color options
+- Includes an "Add to Cart" button
+- Responsive design suitable for all devices
+- Clean, modern UI with hover effects
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- HTML5 for markup
+- CSS3 for styling and layout
+- JavaScript for interactive elements
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone the repository and navigate to the project directory:
 
-### `npm run build`
+```bash
+git clone https://github.com/siddhraj1412/FSWD-Mini-Projects.git
+cd FSWD-Mini-Projects/6-product-card
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Running the Project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open the `index.html` file in any modern web browser to view and interact with the product card.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Project Structure
 
-### `npm run eject`
+```
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- `index.html`: Main HTML page with structure of the product card  
+- `style.css`: Styles for layout, colors, and responsiveness  
+- `script.js`: JavaScript for interactive features (e.g., size selection, button effects)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- View product details on the card
+- Select different product options if available
+- Click "Add to Cart" (button may be linked to cart functionality with extension)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Customization
 
-## Learn More
+- Replace product image and text in `index.html`
+- Modify styles in `style.css` for branding or theme changes
+- Extend functionality with JavaScript in `script.js`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License
