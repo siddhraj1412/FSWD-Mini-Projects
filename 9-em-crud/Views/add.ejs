@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Item</title>
+</head>
+<body style="font-family:Arial, sans-serif; text-align:center; padding:20px;">
+  <h3><%= name %> | ID: <%= id %></h3>
+  <h1>Add New Item</h1>
+  <form action="/add" method="POST" style="margin-top:20px;">
+    <input type="text" name="name" placeholder="Name" required style="padding:5px; margin:5px;">
+    <input type="text" name="description" placeholder="Description" style="padding:5px; margin:5px;">
+    <button type="submit" style="padding:5px 10px;">Add</button>
+  </form>
+  <br>
+  <a href="/">Back</a>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD App</title>
+</head>
+<body style="font-family:Arial, sans-serif; text-align:center; padding:20px;">
+  <h3><%= name %> | ID: <%= id %></h3>
+  <h1>Items List</h1>
+  <a href="/add">Add New Item</a>
+  <ul style="list-style:none; padding:0; margin-top:20px;">
+    <% items.forEach(item => { %>
+      <li style="margin:10px 0;">
+        <strong><%= item.name %></strong>: <%= item.description %>
+        <a href="/edit/<%= item._id %>">Edit</a>
+        <a href="/delete/<%= item._id %>" style="color:red; margin-left:10px;">Delete</a>
+      </li>
+    <% }) %>
+  </ul>
+</body>
+</html>
